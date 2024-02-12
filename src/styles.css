@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-card {
+  border-radius: 12px;
+
+  box-shadow: 0px 18px 34px 0px rgba(5, 16, 55, 0.15);
+  background: rgb(255, 255, 255);
+}
+.image {
+  position: absolute;
+  left: 355px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px 0px rgba(5, 16, 55, 0.15);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.top-card-img {
+  border-radius: 12px 12px 0px 0px;
+
+  background: url(fakurian-design-PGdW_bHDbpI-unsplash);
+}
+
+.card-left {
+  box-sizing: border-box;
+  border: 1.5px solid rgb(230, 230, 230);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+
+.loadmore {
+  box-sizing: border-box;
+  border: 1px solid rgb(174, 174, 178);
+  border-radius: 48px;
+}
